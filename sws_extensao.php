@@ -79,7 +79,7 @@
 									{
 										$newArray   = (isset($value[$type][0])) ? $value[$type] : $value;
 										$listObject = array();
-										$listObject = json_decode(json_encode($newArray), FALSE);
+										$listObject = Util::arrayToObject($newArray, $newObject);
 										$object->$field = $listObject;
 									}
 								}

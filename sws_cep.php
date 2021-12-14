@@ -28,7 +28,6 @@
 		
 		public function getCEPEstendida(CEPEstendida $cep)
 		{
-			print_r($cep);
 			$result = $this->callMethod('ConsultaCEPEstendida', array('parameters' => Util::objectToArray($cep)));
 			return Util::arrayToObject($result->{$this->getLastCalledMethod() . 'Result'}, $cep);
 		}
