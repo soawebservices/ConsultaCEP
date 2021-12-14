@@ -18,7 +18,20 @@ echo "\n\n-----------------------   INFORMACOES GERAIS   -----------------------
 
 # PRINT PROPRIEDADES DO OBJETO
 echo 'CEP:                        ' . $cep->CEP . "\n";
+echo 'TipoLogradouro:             ' . $cep->TipoLogradouro . "\n";
 echo 'Logradouro:                 ' . $cep->Logradouro . "\n";
+echo 'LogradouroCompleto:         ' . $cep->LogradouroCompleto . "\n";
+echo 'LogradouroComplemento:      ' . $cep->LogradouroComplemento . "\n";
+echo 'Bairro:                     ' . $cep->Bairro . "\n";
+echo 'BairroComplemento:          ' . $cep->BairroComplemento . "\n";
+echo 'UF:                         ' . $cep->UF . "\n";
+echo 'Estado:                     ' . $cep->Estado . "\n";
+echo 'Cidade:                     ' . $cep->Cidade . "\n";
+echo 'CodigoIBGE:                 ' . $cep->CodigoIBGE . "\n";
+echo 'Mensagem:                   ' . $cep->Mensagem . "\n";
+echo 'Status:                     ' . $cep->Status . "\n";
+echo 'Transacao:                  ' . $cep->Transacao . "\n";
+
 
 echo "\n----------------------------------------------------------------------\n\n\n";
 
