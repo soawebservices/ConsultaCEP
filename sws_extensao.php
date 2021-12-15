@@ -24,7 +24,6 @@
 
 	/**
 	 * Util - Diversas funcionalidades para manipulacao de dados e objetos
-	 * @author Gustavo Gatto (inbox@gustavogatto.net)
 	 */
 	
 	final class Util
@@ -106,7 +105,6 @@
 
 	/**
 	 * WebService - Manipula as classes de SOAP para integracao WebService.
-	 * @author Gustavo Gatto (inbox@gustavogatto.net)
 	 */
 	
 	class WebService
